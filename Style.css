@@ -1,0 +1,100 @@
+body{
+  display: flex;
+  justify-content:  ;
+  background: linear-gradient(0,  #081221, #030913);
+  color: white ;
+}
+.cabecalho{
+  display: flex ;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  border-bottom: 3px solid blue;
+  position: fixed ;
+  justify-content: end;
+  z-index: 1;
+}
+
+.estrelas{
+  width: 7px;
+  height: 7px;
+  padding-top: ;
+  position: relative;
+  border-radius: 50%;
+  box-shadow:
+     800px 300px white,
+    750px 1050px white,
+    80px 200px white,
+    300px 1000px white,
+    250px 500px white,
+    200px 1300px white,
+    500px 700px white,
+    300px 1600px white;
+	animation: anim-stars 10s linear infinite;
+}
+.estrelas::after{
+  content: " ";
+  width: 9px;
+  height: 9px;
+  position: absolute; 
+  bottom: 1600px;
+  border-radius: 50%;
+  box-shadow: 
+  800px 300px white,
+    750px 1050px white,
+    80px 200px white,
+    300px 1000px white,
+    250px 500px white,
+    200px 1300px white,
+    500px 700px white,
+    300px 1600px white;
+    overflow: hidden;
+    
+}
+.estrelas2{
+  position: relative;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  box-shadow: 
+    405px -150px white,
+    925px 350px white,
+    50px 800px white,
+    600px -1200px white,
+    475px -900px white,
+    230px -400px white,
+    120px 1700px white,
+    300px -1900px white,
+    220px 915px white,
+    805px -705px white,
+    525px 645px white,
+    90px -800px white,
+    400px -1020px white,
+    775px 900px white,
+    270px 300px white,
+    1100px -1030px white,
+    1200px -130px white,
+    120px 715px white;
+  animation: anim-stars 15s linear infinite;
+  animation-play-state: ;
+}
+.espaco{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+}
+.pause img{
+  width: 80px;
+  height: 80px;
+  padding-top: 70px;
+}
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(1600px);
+    }
+}
