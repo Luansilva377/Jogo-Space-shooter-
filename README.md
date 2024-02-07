@@ -1,4 +1,4 @@
-# 1⁰-fase- "jornada pelo espaço" -Jogo-Space-shooter-
+# 1⁰-fase "jornada pelo espaço" Jogo-Space-shooter-
 Comece uma "jornada pelo espaço" enfrente os perigos dessa grande galáxia e se prepare para sentir muita emoção,  mostre sua habilidades e supere cada degrau.
 
 imagens: https://www.flaticon.com/br/
